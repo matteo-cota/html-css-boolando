@@ -1,0 +1,48 @@
+body {
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    width: 1200px;
+}
+
+header {
+    background-color: rgb(255, 153, 0);
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 10px #255ee9
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li {
+    display: flex;
+    justify-content: center;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul li a. {
+    background-color: white;
+    color: #7289da;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
