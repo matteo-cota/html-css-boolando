@@ -126,3 +126,35 @@ header ul li a. {
     color: grey;
     font-weight: normal;
 }
+
+footer {
+    width: 114%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 50px 5px;
+}
+
+footer ul {
+    color: white;
+    text-decoration: none;
+    margin: 50px 5px;
+}
+
+.boolando {
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer .social-media {
+    height: 20px;
+    margin: 50px 5px;
+    color: #ffffff;
+}
