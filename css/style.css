@@ -7,10 +7,13 @@ body {
 header {
     background-color: rgb(255, 153, 0);
     color: white;
+    background-size: cover;
+    background-position: center;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
+    z-index: 1000;
 }
 
 header nav {
@@ -45,4 +48,81 @@ header ul li a. {
     color: #7289da;
     padding: 5px 10px;
     border-radius: 15px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 70px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.product-item {
+    position: relative;
+    text-align: justify;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+
+.product-item img {
+    width: 100%;
+}
+
+
+
+.labels {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.discount {
+    background-color: red;
+    color: white;
+    position: relative;
+    top: 465px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.sustainability {
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: 465px;
+    left: 42px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.sustainability-new {
+    background-color: green;
+    color: white;
+    position: absolute;
+    top: 465px;
+    left: 0;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.brand {
+    font-weight: bold;
+}
+
+.price {
+    color: red;
+    font-weight: bold;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: grey;
+    font-weight: normal;
 }
